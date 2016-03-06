@@ -1,51 +1,96 @@
 <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="vendor/materialize/css/materialize.min.css"  media="screen,projection"/>
-      <!--Import fonts-->
-      <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Albero</title>
-    </head>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <!-- <link type="text/css" rel="stylesheet" href="vendor/materialize/css/materialize.min.css"  media="screen,projection"/> -->
+    <!--Import fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- import styles -->
+    <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Albero</title>
+</head>
 
-    <body>
-    
+<body>
     <div class="wrapper">
-      <div class="row">
-        <div class="col l8">
-          <div class="col l2 offset-l1 logo">
-            <a href="#" title=""><img src="vendor/img/logo.png" alt="Albero"></a>            
-          </div>
-          <div class="col l2 offset-l1 slogan">
-            
-          </div>
+        <div class="first-block">
+            <header id="header" class="clear">
+                <div class="theme-wrap clear">
+                    <div class="logo">
+                        <a href="" title=""><img src="vendor/img/logo.png" alt="Albero"></a>
+                    </div>
+                    <div class="slogan">
+                        <p>интерактивный курс обучения It-технологиям</p>
+                    </div>
+                </div>
+                <div class="log">
+                    <a href="#" title="">Вход</a>
+                    <a href="#" title="">Регистрация</a>
+                </div>
+            </header>
+            <!-- /header -->
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#"><img src="vendor/img/pin.png" alt="pin"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="vendor/img/chat.png" alt="chat"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="vendor/img/learn.png" alt="learn"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="vendor/img/matrix.png" alt="matrix"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="vendor/img/avards.png" alt="avards"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="vendor/img/contacts.png" alt="contacts"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="character">
+                <div class="boy-char">
+                    <div class="l-cloud"></div>
+                    <div class="boy"></div>
+                </div>
+                <div class="girl-char">
+                    <div class="r-cloud"></div>
+                    <div class="girl"></div>
+                </div>
+            </div>
+            <div class="enter-form">
+                <form>
+                    <h2>Вход</h2>
+                    <input type="text" name="login" value="" placeholder="Логин">
+                    <input type="password" name="password" value="" placeholder="Пароль">
+                    <input type="submit" name="submit" value="Войти">
+                    <label>Запомнить пароль
+                        <input type="checkbox" name="remember" value="">
+                    </label>
+                    <a href="#" title="">Забыли пароль?</a>
+                    <div class="soc-net">
+                        <ul>
+                            <li><a href="#" title="">vk</a></li>
+                            <li><a href="#" title="">fb</a></li>
+                            <li><a href="#" title="">tw</a></li>
+                            <li><a href="#" title="">g+</a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="col l4">
-          
-        </div>
-      </div>
     </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="vendor/materialize/js/materialize.min.js"></script>
+</body>
 
-     <div class="row">
-      <div class="col s12"><p>s12</p></div>
-      <div class="col s12 m4 l2"><p>s12 m4</p></div>
-      <div class="col s12 m4 l8"><p>s12 m4</p></div>
-      <div class="col s12 m4 l2"><p>s12 m4</p></div>
-    </div>
-    <div class="row">
-      <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
-      <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
-      <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
-      <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
-    </div>
-
-
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="vendor/materialize/js/materialize.min.js"></script>
-    </body>
-  </html>
+</html>
