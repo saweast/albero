@@ -18,6 +18,7 @@
 .first-block {
     padding-top: 15px;
     background-image: url('../img/main-bg.png');
+    position: relative;
 }
 
 .theme-wrap {
@@ -108,6 +109,9 @@ header {
 	padding: 10px;
 	margin-top: -10px;
 	font-family: "Exo 2", sans-serif;
+	position: absolute;
+    right: 0;
+    top: 105px;
 }
 .enter-form h2 {
 	font-family: "Times New Roman", sans;
@@ -131,4 +135,93 @@ header {
 	display: block;
 	width: 100%;
 	font-weight: bold;
+}
+.enter-form label {
+	position: relative;
+	top: -2px;
+}
+.enter-form label, 
+.enter-form a.forgot {
+	font-size: 0.7em;
+	color: #d2a250;
+	text-decoration: none;
+}
+.enter-form a.forgot {
+	color: #a5a6a7;
+	float: right;
+	text-decoration: none;
+	position: relative;
+}
+.enter-form a.forgot:hover {
+	text-decoration: underline;
+}
+.enter-form input[type=checkbox] {
+	width: auto;
+	box-shadow: none;
+	position: relative;
+    left: 5px;
+}
+.soc-net li {
+	float: left;
+	margin-right: 2%;
+}
+.soc-net li a {
+	width: 15%;
+}
+.soc-net img {
+	width: 100%;
+}
+.character {
+	display: block;
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	height: 600px;
+}
+.boy, .girl {
+	display: inline-block;
+    position: absolute;
+    width: 175px;
+    height: 295px;
+    background-image: url('../img/boy.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 25%;
+    top: 200px;
+}
+.girl {
+	background-image: url('../img/girl.png');
+	top: 180px;
+    left: 50%;
+	height: 315px;
+}
+.r-cloud,
+.l-cloud {
+	height: 190px;
+    width: 245px;
+    position: absolute;
+    background-image: url("../img/left-cloud.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 10%;
+    top: 25px;
+}
+.r-cloud p,
+.l-cloud p {
+	text-align: center;
+	line-height: 1.5em;
+	transform: rotate(-23deg);
+	position: relative;
+	top: 57px;
+	font-family: 'Exo 2', sans-serif;
+}
+.r-cloud p {
+	transform: rotate(8deg);
+	width: 70%;
+	left: 16%;
+}
+.r-cloud {
+	background-image: url("../img/right-cloud.png");
+	left: 58%;
+	top: 50px;
 }
