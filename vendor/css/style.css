@@ -69,3 +69,66 @@
 .theme-wrap {
     float: left;
 }
+header {
+	/* margin-bottom: 20px; */
+}
+.nav {
+	width: 50px;
+    position: fixed;
+    top: 50%;
+}
+.nav li {
+	margin-bottom: 10px;
+}
+.nav li.act a {
+	background-color: rgba(111, 130, 143, 0.5);
+}
+.nav li.act img {
+	-webkit-filter: brightness(111);		
+}
+.nav li a {
+	width: 50px;
+    height: 35px;
+
+    padding-right: 10px;
+    text-align: center;
+	display: inline-block;
+}
+.nav li a img {
+	height: 80%;
+    margin-top: 10%;
+}
+.enter-form {
+	float: right;
+	width: 17%;
+	border: 1px solid #98adbf;
+	background-color: #d6e1e3;
+	color: #979696;
+	box-shadow: -2px 0px 2px 0px rgba(0,0,0,0.5);
+	padding: 10px;
+	margin-top: -10px;
+	font-family: "Exo 2", sans-serif;
+}
+.enter-form h2 {
+	font-family: "Times New Roman", sans;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.enter-form input {
+	padding: 10px;
+	font-size: .9em;
+	outline: none;
+	border: 1px solid #fafbfc;
+	box-shadow: 2px 1px 2px 0px rgba(0,0,0,0.5);
+	margin-bottom: 10px;
+	background-color: #f6f6f6;
+	width: 100%;
+}
+.enter-form input[type="submit"] {
+	background-color: #ebbc01;
+	border: 1px solid #f0d671;
+	color: #6c411b;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+}
