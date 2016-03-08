@@ -76,6 +76,7 @@ header {
 }
 
 .nav {
+	display: none;
     position: fixed;
     top: 150px;
     width: 50px;
@@ -194,7 +195,7 @@ header {
     position: relative;
     display: block;
     width: 80%;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
 }
 
@@ -257,10 +258,17 @@ header {
     padding: 40px 17%;
     background-image: url('../img/about-bg.png');
     background-size: 100% 100%;
+    position: relative;
+    z-index: -1;
 }
 
 .lamp {
-    display: none;
+	position: absolute;
+    top: 53px;
+    left: 90px;
+}
+.lamp img {
+	width: 70%;
 }
 
 .about-logo {
@@ -316,6 +324,7 @@ header {
     background-image: url('../img/cell-bg.png');
     background-position: 50% 60%;
     background-size: 103%;
+    height: 68%;
 }
 
 .contacts-block::before {
@@ -389,4 +398,65 @@ header {
     height: 60px;
     width: 60px;
 }
+
+.second-block {
+	position: relative;
+}
+.second-block::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: -90px;
+	height: 765px;
+	width: 100%;
+	background-image: url("../img/cabel.png");
+	background-size: 100% 100%;
+}
+.main {
+	text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    position: relative;
+}
+.second-block {
+	font-family: "Exo 2", sans;
+	text-align: center;
+}
+.additional,
+.chat,
+.contact,
+.learn,
+.avards {
+	position: absolute;
+	width: 220px;
+	display: inline-block;
+
+}
+.additional {
+	top: -25px;
+    left: 255px;
+}
+.chat {
+	top: 200px;
+    left: 80px;
+}
+.contact {
+	left: 215px;
+    top: 430px;
+}
+.learn {
+	right: 115px;
+    top: 100px;
+}
+.avards {
+	right: 115px;
+    top: 310px;
+}
+.second-block h3 {
+	font-weight: 400;
+	font-size: 1.4em;
+	margin-bottom: 20px;
+}
+.second-block p {
+	font-size: 1em;
 }
